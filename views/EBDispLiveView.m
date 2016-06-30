@@ -34,9 +34,9 @@
 -(UITableView *)tableView {
     if (!_tableView) {
         _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0,0,130,SCREEN_WIDTH)
-                                               style:UITableViewStylePlain];// 宽 逆时针旋转90度 转为高， 高-》宽
-        [_tableView setTransform:CGAffineTransformMakeRotation(-M_PI / 2)]; /* 旋转方向为：顺时针旋转 */
-       
+                                               style:UITableViewStylePlain];// 宽逆时针旋转90度 转为高， 高->宽
+        [_tableView setTransform:CGAffineTransformMakeRotation(-M_PI / 2)]; // 旋转方向为：顺时针旋转
+
         _tableView.center=CGPointMake(SCREEN_WIDTH/2.0,65);// 旋转是以center为中心旋转的
         _tableView.delegate=self;
         _tableView.dataSource=self;
