@@ -7,30 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5899848E1D239B6E004A1BC4 /* EBDispLiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5899848D1D239B6E004A1BC4 /* EBDispLiveView.m */; };
-		589984941D23AAFB004A1BC4 /* EBDispLiveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589984931D23AAFB004A1BC4 /* EBDispLiveView.xib */; };
-		589984981D23BC49004A1BC4 /* EBCommentsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 589984961D23BC49004A1BC4 /* EBCommentsCell.m */; };
-		589984991D23BC49004A1BC4 /* EBCommentsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589984971D23BC49004A1BC4 /* EBCommentsCell.xib */; };
-		5899849C1D23C482004A1BC4 /* EBContaints.m in Sources */ = {isa = PBXBuildFile; fileRef = 5899849B1D23C482004A1BC4 /* EBContaints.m */; };
+		58D39A4D1D24F7F60076A34E /* EBCommentsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D39A481D24F7F60076A34E /* EBCommentsCell.m */; };
+		58D39A4E1D24F7F60076A34E /* EBCommentsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D39A491D24F7F60076A34E /* EBCommentsCell.xib */; };
+		58D39A4F1D24F7F60076A34E /* EBLiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D39A4B1D24F7F60076A34E /* EBLiveTableViewCell.m */; };
+		58D39A501D24F7F60076A34E /* EBLiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D39A4C1D24F7F60076A34E /* EBLiveTableViewCell.xib */; };
+		58D39A541D24F8090076A34E /* EBContaints.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D39A531D24F8090076A34E /* EBContaints.m */; };
+		58D39A591D24F80E0076A34E /* EBDispLiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D39A571D24F80E0076A34E /* EBDispLiveView.m */; };
+		58D39A5A1D24F80E0076A34E /* EBDispLiveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D39A581D24F80E0076A34E /* EBDispLiveView.xib */; };
 		58E1A75E1D22633200777811 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E1A75D1D22633200777811 /* main.m */; };
 		58E1A7611D22633200777811 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E1A7601D22633200777811 /* AppDelegate.m */; };
 		58E1A7641D22633200777811 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E1A7631D22633200777811 /* ViewController.m */; };
 		58E1A7671D22633200777811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E1A7651D22633200777811 /* Main.storyboard */; };
 		58E1A7691D22633200777811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E1A7681D22633200777811 /* Assets.xcassets */; };
 		58E1A76C1D22633200777811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E1A76A1D22633200777811 /* LaunchScreen.storyboard */; };
-		58E1A77C1D227B3500777811 /* EBLiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E1A77A1D227B3500777811 /* EBLiveTableViewCell.m */; };
-		58E1A77D1D227B3600777811 /* EBLiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58E1A77B1D227B3500777811 /* EBLiveTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5899848C1D239B6E004A1BC4 /* EBDispLiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBDispLiveView.h; sourceTree = "<group>"; };
-		5899848D1D239B6E004A1BC4 /* EBDispLiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBDispLiveView.m; sourceTree = "<group>"; };
-		589984931D23AAFB004A1BC4 /* EBDispLiveView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBDispLiveView.xib; sourceTree = "<group>"; };
-		589984951D23BC49004A1BC4 /* EBCommentsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCommentsCell.h; sourceTree = "<group>"; };
-		589984961D23BC49004A1BC4 /* EBCommentsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCommentsCell.m; sourceTree = "<group>"; };
-		589984971D23BC49004A1BC4 /* EBCommentsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBCommentsCell.xib; sourceTree = "<group>"; };
-		5899849A1D23C482004A1BC4 /* EBContaints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBContaints.h; sourceTree = "<group>"; };
-		5899849B1D23C482004A1BC4 /* EBContaints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBContaints.m; sourceTree = "<group>"; };
+		58D39A471D24F7F60076A34E /* EBCommentsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCommentsCell.h; sourceTree = "<group>"; };
+		58D39A481D24F7F60076A34E /* EBCommentsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCommentsCell.m; sourceTree = "<group>"; };
+		58D39A491D24F7F60076A34E /* EBCommentsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBCommentsCell.xib; sourceTree = "<group>"; };
+		58D39A4A1D24F7F60076A34E /* EBLiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBLiveTableViewCell.h; sourceTree = "<group>"; };
+		58D39A4B1D24F7F60076A34E /* EBLiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBLiveTableViewCell.m; sourceTree = "<group>"; };
+		58D39A4C1D24F7F60076A34E /* EBLiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBLiveTableViewCell.xib; sourceTree = "<group>"; };
+		58D39A521D24F8090076A34E /* EBContaints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBContaints.h; sourceTree = "<group>"; };
+		58D39A531D24F8090076A34E /* EBContaints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBContaints.m; sourceTree = "<group>"; };
+		58D39A561D24F80E0076A34E /* EBDispLiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBDispLiveView.h; sourceTree = "<group>"; };
+		58D39A571D24F80E0076A34E /* EBDispLiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBDispLiveView.m; sourceTree = "<group>"; };
+		58D39A581D24F80E0076A34E /* EBDispLiveView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBDispLiveView.xib; sourceTree = "<group>"; };
 		58E1A7591D22633200777811 /* LiveTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E1A75D1D22633200777811 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58E1A75F1D22633200777811 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,9 +44,6 @@
 		58E1A7681D22633200777811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E1A76B1D22633200777811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58E1A76D1D22633200777811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58E1A7791D227B3500777811 /* EBLiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBLiveTableViewCell.h; sourceTree = "<group>"; };
-		58E1A77A1D227B3500777811 /* EBLiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBLiveTableViewCell.m; sourceTree = "<group>"; };
-		58E1A77B1D227B3500777811 /* EBLiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBLiveTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,23 +57,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		589984861D239ABC004A1BC4 /* views */ = {
+		58D39A461D24F7F60076A34E /* cells */ = {
 			isa = PBXGroup;
 			children = (
-				5899848C1D239B6E004A1BC4 /* EBDispLiveView.h */,
-				5899848D1D239B6E004A1BC4 /* EBDispLiveView.m */,
-				589984931D23AAFB004A1BC4 /* EBDispLiveView.xib */,
-				5899849A1D23C482004A1BC4 /* EBContaints.h */,
-				5899849B1D23C482004A1BC4 /* EBContaints.m */,
+				58D39A471D24F7F60076A34E /* EBCommentsCell.h */,
+				58D39A481D24F7F60076A34E /* EBCommentsCell.m */,
+				58D39A491D24F7F60076A34E /* EBCommentsCell.xib */,
+				58D39A4A1D24F7F60076A34E /* EBLiveTableViewCell.h */,
+				58D39A4B1D24F7F60076A34E /* EBLiveTableViewCell.m */,
+				58D39A4C1D24F7F60076A34E /* EBLiveTableViewCell.xib */,
 			);
-			name = views;
+			path = cells;
+			sourceTree = "<group>";
+		};
+		58D39A511D24F8090076A34E /* others */ = {
+			isa = PBXGroup;
+			children = (
+				58D39A521D24F8090076A34E /* EBContaints.h */,
+				58D39A531D24F8090076A34E /* EBContaints.m */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		58D39A551D24F80E0076A34E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				58D39A561D24F80E0076A34E /* EBDispLiveView.h */,
+				58D39A571D24F80E0076A34E /* EBDispLiveView.m */,
+				58D39A581D24F80E0076A34E /* EBDispLiveView.xib */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 		58E1A7501D22633200777811 = {
 			isa = PBXGroup;
 			children = (
-				589984861D239ABC004A1BC4 /* views */,
-				58E1A7731D2266FA00777811 /* cells */,
+				58D39A551D24F80E0076A34E /* views */,
+				58D39A511D24F8090076A34E /* others */,
+				58D39A461D24F7F60076A34E /* cells */,
 				58E1A75B1D22633200777811 /* LiveTableView */,
 				58E1A75A1D22633200777811 /* Products */,
 			);
@@ -109,19 +130,6 @@
 				58E1A75D1D22633200777811 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		58E1A7731D2266FA00777811 /* cells */ = {
-			isa = PBXGroup;
-			children = (
-				58E1A7791D227B3500777811 /* EBLiveTableViewCell.h */,
-				58E1A77A1D227B3500777811 /* EBLiveTableViewCell.m */,
-				58E1A77B1D227B3500777811 /* EBLiveTableViewCell.xib */,
-				589984951D23BC49004A1BC4 /* EBCommentsCell.h */,
-				589984961D23BC49004A1BC4 /* EBCommentsCell.m */,
-				589984971D23BC49004A1BC4 /* EBCommentsCell.xib */,
-			);
-			name = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,12 +189,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				589984941D23AAFB004A1BC4 /* EBDispLiveView.xib in Resources */,
+				58D39A4E1D24F7F60076A34E /* EBCommentsCell.xib in Resources */,
 				58E1A76C1D22633200777811 /* LaunchScreen.storyboard in Resources */,
-				589984991D23BC49004A1BC4 /* EBCommentsCell.xib in Resources */,
+				58D39A501D24F7F60076A34E /* EBLiveTableViewCell.xib in Resources */,
 				58E1A7691D22633200777811 /* Assets.xcassets in Resources */,
-				58E1A77D1D227B3600777811 /* EBLiveTableViewCell.xib in Resources */,
 				58E1A7671D22633200777811 /* Main.storyboard in Resources */,
+				58D39A5A1D24F80E0076A34E /* EBDispLiveView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,12 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D39A4D1D24F7F60076A34E /* EBCommentsCell.m in Sources */,
 				58E1A7641D22633200777811 /* ViewController.m in Sources */,
-				5899849C1D23C482004A1BC4 /* EBContaints.m in Sources */,
 				58E1A7611D22633200777811 /* AppDelegate.m in Sources */,
-				5899848E1D239B6E004A1BC4 /* EBDispLiveView.m in Sources */,
-				58E1A77C1D227B3500777811 /* EBLiveTableViewCell.m in Sources */,
-				589984981D23BC49004A1BC4 /* EBCommentsCell.m in Sources */,
+				58D39A4F1D24F7F60076A34E /* EBLiveTableViewCell.m in Sources */,
+				58D39A591D24F80E0076A34E /* EBDispLiveView.m in Sources */,
+				58D39A541D24F8090076A34E /* EBContaints.m in Sources */,
 				58E1A75E1D22633200777811 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

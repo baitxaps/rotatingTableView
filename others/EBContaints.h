@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 @interface EBContaints : NSObject
 
 + (CGFloat)ebView:(UIView *)ebView heightForSystemLayoutSizeFittingSize:(CGSize )targetSize ;
