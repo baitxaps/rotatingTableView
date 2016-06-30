@@ -26,7 +26,7 @@
 }
 
 
-+ (NSArray<__kindof NSLayoutConstraint *> *)ebVerticalConstraintsWithView:(UIView *)ebView  viewForHeight:(CGFloat)height viewForTopOffset:(CGFloat)topHeight {
++ (NSArray<__kindof NSLayoutConstraint *> *)ebVerticalConstraintsWithView:(UIView *)ebView  viewForHeight:(CGFloat)height {
     
    NSArray *containts  = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[ebView(==height)]" options:0 metrics:@{@"height":@(height)} views:NSDictionaryOfVariableBindings(ebView)];
     return containts ;

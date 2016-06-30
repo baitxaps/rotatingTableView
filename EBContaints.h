@@ -15,6 +15,6 @@
 + (NSArray<__kindof NSLayoutConstraint *> *)ebHorizontalConstraintsWithView:(UIView *)ebView ;
 
 + (NSArray<__kindof NSLayoutConstraint *> *)ebVerticalConstraintsWithView:(UIView *)ebView
-                                                            viewForHeight:(CGFloat)height
-                                                         viewForTopOffset:(CGFloat)topHeight;
+                                                            viewForHeight:(CGFloat)height;
+                                                    
 @end

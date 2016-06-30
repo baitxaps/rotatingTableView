@@ -38,9 +38,8 @@
     NSArray *containts = [EBContaints ebHorizontalConstraintsWithView:_displiveView];
     [self.view addConstraints:containts];
     
-    
-    NSArray *containts1 = [EBContaints ebVerticalConstraintsWithView:_displiveView viewForHeight:height viewForTopOffset:0];
-    [self.view addConstraints:containts1];
+    containts = [EBContaints ebVerticalConstraintsWithView:_displiveView viewForHeight:height];
+    [self.view addConstraints:containts];
     
 }
 
