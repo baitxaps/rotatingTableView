@@ -6,9 +6,14 @@
 //  Copyright © 2016年 hairong.chen. All rights reserved.
 //
 
-#import "ViewController.h"
 
-@interface ViewController ()
+#import "ViewController.h"
+#import "EBDispLiveView.h"
+#import "EBContaints.h"
+
+@interface ViewController () {
+    EBDispLiveView *_displiveView;
+}
 
 @end
 
@@ -16,12 +21,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self setupView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void)setupView {
+    _displiveView = [EBDispLiveView initNib];
+    
+    _displiveView.backgroundColor = [UIColor redColor];
+    _displiveView.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:_displiveView];
+    
+    
+    CGFloat height = [EBContaints ebView:_displiveView heightForSystemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
+    
+    NSArray *containts = [EBContaints ebHorizontalConstraintsWithView:_displiveView];
+    [self.view addConstraints:containts];
+    
+    
+    NSArray *containts1 = [EBContaints ebVerticalConstraintsWithView:_displiveView viewForHeight:height viewForTopOffset:0];
+    [self.view addConstraints:containts1];
+    
 }
+
 
 @end
